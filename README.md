@@ -17,5 +17,5 @@ It's a [Create React App](https://github.com/facebook/create-react-app) so you c
 
 ## Running tests
 
-`yarn test` runs the unit tests in "watch mode". When you update the code, the tests will run themselves again.
-`yarn test:integration` runs the end to end browser tests in the `integration/` directory. We're using the Puppeteer library to launch the app server in an instance of Chromium, then visit the site and type, click, etc.
+- `yarn test` runs the unit tests in "watch mode". When you update the code, the tests will run themselves again.
+- `yarn test:integration` runs the end to end browser tests in the `integration/` directory. We're using the Puppeteer library to launch the app server in an instance of Chromium, then visit the site and type, click, etc.
