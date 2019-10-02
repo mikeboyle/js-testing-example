@@ -21,12 +21,15 @@ export default class WordCounterForm extends React.Component {
   render() {
     return (
       <div className={styles.wordCounterForm}>
-        <form onSubmit={this.handleSubmit}>
+        <form name="wordCounterForm" onSubmit={this.handleSubmit}>
           <textarea
+            name="wordCounterInput"
             onChange={this.handleChange}
             placeholder={"write something cool"}
           />
-          <button value="submit">Submit</button>
+          <button value="submit" data-testid="wordCounterSubmit">
+            Submit
+          </button>
         </form>
       </div>
     );
