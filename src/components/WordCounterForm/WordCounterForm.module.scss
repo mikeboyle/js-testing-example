@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.wordCounterForm {
+  textarea {
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid $color-border;
+    font-size: $font-size-small;
+    width: $component-width;
+    height: 20vh;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius;
+    background: $color-count;
+    color: $color-white;
+    font-size: $font-size-medium;
+  }
+}

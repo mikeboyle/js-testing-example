@@ -1,0 +1,10 @@
+@import "../../variables.scss";
+
+.wordCounterError {
+  width: $component-width;
+  color: $color-error;
+  border: 1px solid $color-error;
+  border-radius: $border-radius;
+  padding: 1rem 0;
+  margin: 1rem auto;
+}

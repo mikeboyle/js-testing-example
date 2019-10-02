@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.wordCounter {
+  width: $content-width;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: $body-font;
+  font-size: $font-size-small;
+  text-align: center;
+}
+
+.title {
+  font-size: $font-size-large;
+  font-weight: 700;
+}
+
+.subhead {
+  font-size: $font-size-medium;
+  margin-bottom: 1.5rem;
+}
