@@ -26,7 +26,7 @@ export default class WordCounterForm extends React.Component {
             onChange={this.handleChange}
             placeholder={"write something cool"}
           />
-          <button value='submit'>Submit</button>
+          <button value="submit">Submit</button>
         </form>
       </div>
     );

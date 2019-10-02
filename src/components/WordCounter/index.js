@@ -47,9 +47,16 @@ export default class WordCounter extends React.Component {
   }
 
   render() {
+    const starEmoji = (
+      <span role="img" aria-label="star emoji">
+        🌟
+      </span>
+    );
     return (
       <div className={styles.wordCounter}>
-        <div className={styles.title}>🌟 Magic Word Counter 🌟</div>
+        <div className={styles.title}>
+          {starEmoji} Magic Word Counter {starEmoji}
+        </div>
         <div className={styles.subhead}>
           Type some words and I'll count them for you!
         </div>

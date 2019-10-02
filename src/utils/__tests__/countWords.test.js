@@ -7,6 +7,7 @@ describe("countWords", () => {
   });
 
   it("does not count whitespace", () => {
+    // eslint-disable-next-line no-unused-vars
     const text = `   Hello
         This text
     has   lots of
