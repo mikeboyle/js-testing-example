@@ -5,7 +5,7 @@ A little React app with tests that need some ❤️.
 ## Things you'll need
 
 1. node. I use the popular tool [nvm](https://github.com/nvm-sh/nvm) to install multiple versions of node and switch between them from project to project.
-2. yarn. This has become the industry standard for managing node dependencies. (Installation instructions for many operating systems here.)[https://yarnpkg.com/en/docs/install] I installed mine with `brew install yarn`.
+2. yarn. This has become the industry standard for managing node dependencies. [Installation instructions for many operating systems here.](https://yarnpkg.com/en/docs/install) I installed mine with `brew install yarn`.
 
 ## Running the app
 
