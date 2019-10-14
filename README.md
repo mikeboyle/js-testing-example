@@ -19,3 +19,11 @@ It's a [Create React App](https://github.com/facebook/create-react-app) so you c
 
 - `yarn test` runs the unit tests in "watch mode". When you update the code, the tests will run themselves again.
 - `yarn test:acceptance` runs the end to end browser tests in the `acceptance/` directory. We're using the Puppeteer library to launch the app server in an instance of Chromium, then visit the site and type, click, etc.
+
+## Resources
+
+- [Jest `expect` API docs](https://jestjs.io/docs/en/expect)
+- [Mocking functions with Jest](https://jestjs.io/docs/en/mock-functions)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [Using Jest With Puppeteer](https://jestjs.io/docs/en/puppeteer)
+- [Jest-Puppeteer API docs](https://github.com/smooth-code/jest-puppeteer/blob/master/packages/expect-puppeteer/README.md#api)
