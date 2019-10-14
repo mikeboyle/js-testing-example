@@ -18,6 +18,13 @@ describe("countWords", () => {
     // write your act and assertion here
   });
 
+  it("counts words with non-ascii characters (emoji, Chinese, etc)", () => {
+    /*
+     * Write your test here.
+     *
+     */
+  });
+
   it("throws an error if the text is undefined", () => {
     /*
      * Write your test here.
@@ -25,5 +32,5 @@ describe("countWords", () => {
      */
   });
 
-  // Write a few more tests here!
+  // Write more tests here!
 });
