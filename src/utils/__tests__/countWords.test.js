@@ -3,7 +3,8 @@ import countWords from "../countWords";
 describe("countWords", () => {
   it("counts the words in an unpuncuated text", () => {
     const text = "One two three four five six";
-    expect(countWords(text)).toBe(6);
+    const numWords = countWords(text);
+    expect(numWords).toBe(6);
   });
 
   it("does not count whitespace", () => {
@@ -14,7 +15,7 @@ describe("countWords", () => {
     whitespace
     
     `;
-    // write your assertion here
+    // write your act and assertion here
   });
 
   it("throws an error if the text is undefined", () => {
